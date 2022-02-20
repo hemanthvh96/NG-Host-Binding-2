@@ -1,0 +1,14 @@
+<h3>Host Binding</h3>
+
+<p>
+  <strong> Binding allows us to bind to a property of a host element.</strong>
+  The element on which we apply the directive is called Host Element
+</p>
+
+<p [highlight]="true">Check this element</p>
+
+<!-- Once you have used the input property Binding [highlight] then automatically the right side of equals to evaluates to javascript expression. "true" is not a string anymore it's a boolean value -->
+
+<p [highlight]="isCSSApplied" (click)="onClick()">Click Me Multiple Times</p>
+
+<!-- Here every time we click on the element isCSSApplied variable value is set to true or false. And that value is assigned to the input property highlight of highlight directive -->

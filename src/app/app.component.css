@@ -1,0 +1,23 @@
+* {
+  font-family: 'Segoe UI';
+}
+
+.addColorGreen {
+  color: green;
+}
+
+.addBgLight {
+  background-color: beige;
+}
+
+.addUnderline {
+  text-decoration: underline;
+}
+
+.alignText {
+  text-align: center;
+}
+
+p:nth-of-type(3) {
+  cursor: pointer;
+}
